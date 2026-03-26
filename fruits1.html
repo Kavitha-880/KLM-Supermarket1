@@ -62,7 +62,7 @@ let total=0;
 let h='<table border="1" style="margin:auto"><tr><th>Item</th><th>Qty</th><th>Price</th></tr>';
 
 c.forEach(i=>{
-h+=<tr><td>${i.name}</td><td>${i.qty}</td><td>${i.price}</td></tr>;
+h+=`<tr><td>${i.name}</td><td>${i.qty}</td><td>${i.price}</td></tr>`;
 total+=+i.price;
 });
 
